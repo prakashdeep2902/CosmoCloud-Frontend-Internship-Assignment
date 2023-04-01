@@ -1,0 +1,17 @@
+.select{
+
+    border: 1px solid black;
+    margin-left: .5rem;
+    width: 8rem;
+    height: 2rem;
+    padding-left: .5rem;
+    font-size: .9rem;
+    text-transform: capitalize;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: lightgray;
+    font-weight: 900;
+    position: relative;
+    margin-left:4rem ;
+
+}

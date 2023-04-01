@@ -1,10 +1,17 @@
 import React from 'react'
-
+import data from './Data/Data'
+import IntefaceEditior from './Component/IntefaceEditior/IntefaceEditior'
+import './App.css'
 const App = () => {
+
   return (
-    <div>
-      
-    </div>
+    <>
+      <h1 className='firstH1'>CosmoCloud Frontend Internship Assignment</h1>
+      <div className='container'>
+       <IntefaceEditior data={data} ></IntefaceEditior>
+      </div>
+
+    </>
   )
 }
 

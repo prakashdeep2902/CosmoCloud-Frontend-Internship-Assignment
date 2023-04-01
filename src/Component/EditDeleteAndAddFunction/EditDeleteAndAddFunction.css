@@ -1,0 +1,62 @@
+.addDelete_conatiner{
+
+   
+    width: 100%;
+    margin-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.item_container{
+
+    display: flex;
+  
+    font-size: 1.2rem;
+  
+}
+.item_container .icon{
+
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    cursor: pointer;   
+   
+}
+.item_container .icon:nth-child(odd){
+
+  color: gray;
+  transition:ease-in-out;
+   
+}
+.item_container .icon:nth-child(odd):hover{
+
+    color: lightgreen;
+     
+}
+.item_container .icon:nth-child(odd):active{
+
+transform: translateX(.3rem);
+}
+.item_container .icon:nth-child(even){
+
+    border: none;
+    transition: ease-in-out;
+     
+}
+.item_container .icon:nth-child(even):hover{
+
+    border: none;
+    background-color: lightblue;
+     
+}
+.item_container .icon:nth-child(even):active{
+
+    transform: translateX(.3rem);
+}
